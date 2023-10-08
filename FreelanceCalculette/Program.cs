@@ -28,7 +28,7 @@ Console.WriteLine("Net Mensuel : " + getMensual(totalNet) + " euros");
 
 if (totalBrut < plafond)
 {
-Console.WriteLine("Vous êtes à " + (plafond - totalBrut) +  "euros du plafond");   
+Console.WriteLine("Vous êtes à " + (plafond - totalBrut) +  " euros du plafond");   
 }
 else
 {
