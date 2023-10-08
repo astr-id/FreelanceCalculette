@@ -6,7 +6,7 @@ while (true)
     Console.WriteLine("Entrez le montant de vos factures. Entrez STOP une fois que vous avez terminé");
     reponse = Console.ReadLine();
 
-    if (reponse.ToUpper() == "STOP")
+    if (reponse == "STOP")
     { 
         break;
     }
@@ -32,7 +32,7 @@ Console.WriteLine("Vous êtes à " + (plafond - totalBrut) +  "euros du plafond"
 }
 else
 {
-    Console.WriteLine("Attention ! Vous dépassez le plafond deC" + (totalBrut - plafond) + " euros du plafond");
+    Console.WriteLine("Attention ! Vous dépassez le plafond de " + (totalBrut - plafond) + " euros du plafond");
 }
 
 Console.WriteLine("Tapez sur n'importe quelle touche pour quitter l'application.");
